@@ -1,0 +1,46 @@
+<?php
+/**
+* 
+* while loop 
+* 
+*/
+echo("<b style=font-size:30px> while loop     ");
+$i=1;
+while ($i<=10) {
+	echo "<b style=font-size:30px>".$i."</b>";
+	if($i!=10) {
+		echo "  ,  ";
+	}
+	$i++;
+}
+
+
+/**
+* 
+* for loop
+* 
+*/
+echo("<br>   <b style=font-size:30px> for loop     ");
+for ($x = 1; $x <=10 ; $x++) {
+	echo "<b style=font-size:30px>".$x."</b>";
+	if ($x!=10) {
+		echo "  ,  ";
+	}
+}
+
+
+/**
+* 
+* do while loop 
+* 
+*/
+echo("<br>   <b style=font-size:30px> do while loop     ");
+$y=1;
+do {
+	echo "<b style=font-size:30px>".$y."</b>";
+	if ($y!=10) {
+		echo "  ,  ";
+	}
+	$y++;
+} while ($y<=10);
+?>
